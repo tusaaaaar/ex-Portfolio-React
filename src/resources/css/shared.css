@@ -1,0 +1,39 @@
+:root{
+    ---pinkColor:#f05811;
+}
+
+.breadCrumbItem{
+    background-color:#5b3b2b;
+    color:#f2f2f4;
+    /* background-color: rgb(228, 230, 233); */
+    border-radius: 21px 21px 21px 21px;
+    /* padding: %; */
+    /* width: 100%; */
+    border: 2px solid #ec9143;
+}
+
+.breadCrumbItem .icon{
+    padding: 5%;
+    /* color: rgb(77, 77, 77); */
+    color: var(---pinkColor);
+}
+
+.show{
+    opacity: 1;
+}
+.hide{
+    opacity: 0;
+}
+
+.FullPageError{
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(---pinkColor)
+}
+
+.firstLetterStyle::first-letter {
+    color:var(---pinkColor);
+    font-size: 1.5rem !important;    
+}

@@ -1,0 +1,64 @@
+.projects-section {
+  padding: 40px 20px;
+  background-color: #f9f9f9; /* Light background for contrast */
+}
+
+.projects-title {
+  font-weight: bold;
+  color: #f05811; /* Matches your color scheme */
+  margin-bottom: 30px;
+}
+
+.project-item {
+  display: flex;
+  flex-direction: column; /* Stack image and info vertically */
+  border-radius: 12px; /* Rounded corners */
+  overflow: hidden; /* Prevent overflow */
+  transition: box-shadow 0.3s ease;
+}
+
+.project-image-wrapper {
+  height: 180px; /* Fixed height */
+  overflow: hidden; /* Hide overflow of image */
+}
+
+.project-image {
+  width: 100%; /* Full width of the item */
+  height: 100%; /* Full height */
+  object-fit: cover; /* Maintain aspect ratio */
+  transition: transform 0.3s ease; /* Smooth zoom effect */
+}
+
+.project-item:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+
+.project-info {
+  padding: 16px;
+}
+
+.project-name {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #333;
+  margin: 0 0 10px; /* Space below the title */
+}
+
+.project-description {
+  font-size: 0.95rem;
+  color: #666;
+  margin: 0 0 15px; /* Space below the description */
+}
+
+.project-button {
+  width: 100%;
+  margin-top: auto; /* Push the button to the bottom */
+  background-color: #f05811; /* Main color */
+  color: #ffffff; /* White text for contrast */
+  transition: background-color 0.2s ease;
+}
+
+.project-button:hover {
+  background-color: #d0450c; /* Darker shade on hover */
+}
+

@@ -1,0 +1,30 @@
+.mainContainer {
+  display: flex;
+  flex-direction: row; 
+  align-items:center; 
+  justify-content: flex-start; 
+  /* padding: 40px; */
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  color: #f5f5dc;
+  flex: 1; 
+}
+.image { 
+  flex: 1; 
+  max-width: 50%; 
+  object-fit: cover; 
+}
+
+@media screen and (max-width: 768px) {
+  .mainContainer {
+    flex-direction: column; 
+  }
+
+  .image {
+    max-width: 100%; 
+    margin-left: 0; 
+  }
+}
