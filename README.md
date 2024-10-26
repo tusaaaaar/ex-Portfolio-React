@@ -155,7 +155,7 @@ npm start
 
 ## Acknowledgements
 
-Special thanks to my instructors, Ashik Rai and Gigme Lepcha, for teaching the web development course online. Their guidance has been invaluable in my learning journey.
+Special thanks to my instructors, ***Ashik Rai and Gigme Lepcha***, for teaching the web development course online. Their guidance has been invaluable in my learning journey.
 
 ## Contact Information
 For any inquiries or feedback, please feel free to reach out to me at:
