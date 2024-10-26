@@ -72,8 +72,7 @@ function Home() {
           sx={{
             width: "450px",
             height: "450px",
-            borderRadius: "10px",
-            boxShadow: 3,
+            borderRadius: "1px",
           }}
         />
       </Box>

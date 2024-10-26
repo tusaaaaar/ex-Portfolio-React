@@ -203,6 +203,7 @@ export default function Dashboard() {
     dispatch(setActiveSideMenu({activeSideMenu: index}))
   }
 
+
   return (
     <Box className="HomeContainer">
       <CssBaseline />
@@ -347,3 +348,5 @@ export default function Dashboard() {
     </Box>
   );
 }
+
+

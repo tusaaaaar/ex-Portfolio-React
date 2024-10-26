@@ -79,7 +79,6 @@ const Academics = () => {
                     </a>
                   </h4>
                   <p>{cert.provider}</p>
-                  <hr />
                 </li>
               ))}
             </ul>
