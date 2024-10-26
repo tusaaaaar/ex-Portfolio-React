@@ -1,6 +1,6 @@
-# Portfolio Project
+# Tushar's Portfolio
 
-This is a portfolio website built using React, Material UI, and Joy UI. It showcases personal projects, social profiles, academic background, and a downloadable resume.
+Welcome to Tushar's Portfolio! This is my personal portfolio website designed to showcase my skills, projects, and background in web development. The site highlights my journey and the technologies I've mastered, offering a glimpse into my work and the projects I've been a part of.
 
 ## Table of Contents
 
@@ -11,10 +11,13 @@ This is a portfolio website built using React, Material UI, and Joy UI. It showc
 5. [Scripts](#scripts)
 6. [Installation](#installation)
 7. [Running the Project](#running-the-project)
+8. [Acknowledgements](#Acknowledgements)
+9. [Contact Information](#contact-information)
+
 
 ## Project Overview
 
-A portfolio website showcasing projects, social links, and an academic timeline. used redux to maintain state of the bottom navigation, also used localstorage to store the selected in the bottom navigation. Customized all the used MUI and JoyUI components using the sx property. Used Typewriter-effect in the home page. used react router dom for routing the pages. Used Axios to featch data from backend. (only in the PageNotFound page data is featched to understand the concept remaining all the pages use the data from the Constants.js file in the Utils folder)
+This portfolio website presents my skills, projects, and background in web development. Built with React, Material UI, and modern web technologies, it offers a clear and engaging look at my technical abilities and experience. Used Axios to featch data from backend. (only in the PageNotFound page data is featched to understand the concept remaining all the pages use the data from the Constants.js file in the Utils folder)
 
 ## Directory Structure
 
@@ -23,11 +26,13 @@ root/
 │
 ├── public/
 │   ├── index.html
+│   ├── logo01.png
 │   ├── manifest.json
 │   └── robots.txt
 ├── src/
 │   ├── components/
 │   │   ├── Academics.jsx
+│   │   ├── BreadCrumbComponent.jsx
 │   │   ├── Dashbord.jsx
 │   │   ├── Home.jsx
 │   │   ├── PageNotFound.jsx
@@ -35,7 +40,8 @@ root/
 │   │   └── Projects.jsx
 │   ├── redux/
 │   │   ├── slices/
-│   │   │   └── navSlice.js
+│   │   │   ├── navSlice.jsx
+│   │   │   └── systemSlice.jsx
 │   │   └── store.js
 │   ├── resources/
 │   │   ├── css/
@@ -44,7 +50,9 @@ root/
 │   │   │   ├── home.css
 │   │   │   ├── profile.css
 │   │   │   ├── projects.css
+│   │   │   ├── shared_animation.css
 │   │   │   └── shared.css
+|   │   ├── fonts/
 │   │   └── images/
 │   ├── Utils/
 │   │   └── Constants.js
@@ -63,19 +71,20 @@ root/
 ### Home Page
 
 - Personalized greeting
-- Resume download button
+- Career Aspirations
 
-### Profile Page
+### About Page
 
-- Links to social profiles
+- Personal Background 
+- Detailed showcase of technical skills , programming languages and certifications
 
 ### Projects Page
 
-- Grid of personal projects with descriptions and links
+- Collection of projects with descriptions
 
-### Academics Page
+### Contact Page
 
-- Timeline of educational background
+- Links to social profiles
 
 ### 404 Page
 
@@ -84,13 +93,11 @@ root/
 
 ## Packages Used
 
-- React
-- Material UI
-- Joy UI
-- React Router
-- Redux Toolkit
-- Typewriter-effect
-- Axios
+- React: Core library for building user interfaces.
+- Material UI: A popular React UI framework.
+- Redux: State management library (if applicable).
+- Axios: Promise-based HTTP client for making API requests.
+- react-router-dom: Library for routing in React applications.
 
 ## Scripts
 
@@ -129,7 +136,7 @@ git clone https://github.com/tusaaaaar/tushar-sPortfolio
 Navigate to the project directory:
 
 ```bash
-cd PorfolioProject
+cd tushar'sPortfolio
 ```
 
 Install dependencies:
@@ -144,3 +151,14 @@ After installation, run the project locally:
 
 ```bash
 npm start
+```
+
+## Acknowledgements
+
+Special thanks to my instructors, Ashik Rai and Gigme Lepcha, for teaching the web development course online. Their guidance has been invaluable in my learning journey.
+
+## Contact Information
+For any inquiries or feedback, please feel free to reach out to me at:
+
+Email: sharmatushar7171@gmail.com
+LinkedIn: 'https://www.linkedin.com/in/tushar7171/'

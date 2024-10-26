@@ -43,7 +43,7 @@ function Home() {
         >
           I'am 
           <strong>
-            <span style={{ color: '#f05811' }}> Tushar Sharma.</span>
+            <span style={{ color: '#f05811' }}> Tushar Sharma</span>
           </strong>
         </Typography>
 

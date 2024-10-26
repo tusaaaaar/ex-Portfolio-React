@@ -1,3 +1,4 @@
+@import url("./shared_animtion.css");
 :root {
   --color-bg-variant: #ffffffaf; 
   --color-primary: #333333; 
@@ -71,7 +72,7 @@
 .experience__details-icon {
   margin-top: 6px;
   margin-left: 5px; 
-  color: var(--color-primary); 
+  color: var(--color-primary-variant); 
 }
 
 @media screen and (max-width: 1024px) {

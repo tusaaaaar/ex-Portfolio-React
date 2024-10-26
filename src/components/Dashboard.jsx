@@ -35,7 +35,6 @@ import BreadCrumbComponent from './BreadCrumbComponent';
 import Academics from "./Academics"
 import Projects from './Projects';
 import Profile from './Profile';
-import ResumeComponent from './Resume';
 import Home from './Home';
 import PageNotFound from './PageNotFound';
 
@@ -247,7 +246,8 @@ export default function Dashboard() {
                 <MenuItem onClick={() => AvtarMenuClickHandler(0)}>Profile</MenuItem>
                 <MenuItem onClick={() => AvtarMenuClickHandler(1)}>Download Resume</MenuItem>
                 <MenuItem onClick={() => AvtarMenuClickHandler(2)}>Dark Mode</MenuItem>
-              </Menu>
+               
+               </Menu>
           </Box>
       </AppBar>
       
@@ -322,7 +322,6 @@ export default function Dashboard() {
               <Route path="/home" element={<Home/>} />
               <Route path="/contact" element={<Profile />} />
               <Route path="/projects" element={<Projects />} />
-              <Route path="/resume" element={<ResumeComponent />} />
               <Route path="/academics" element={<Academics />} />
               <Route path="*" element={<PageNotFound />} />
             </Routes>

@@ -1,64 +1,41 @@
-.projects-section {
-  padding: 40px 20px;
-  background-color: #f9f9f9; /* Light background for contrast */
+.projects-container {
+  padding: 2rem;
+  text-align: center;
 }
 
-.projects-title {
-  font-weight: bold;
-  color: #f05811; /* Matches your color scheme */
-  margin-bottom: 30px;
+.projects-container h2 {
+  font-size: 2rem;
+  color:#fff0f0;
+  margin-bottom: 1rem;
 }
 
-.project-item {
-  display: flex;
-  flex-direction: column; /* Stack image and info vertically */
-  border-radius: 12px; /* Rounded corners */
-  overflow: hidden; /* Prevent overflow */
-  transition: box-shadow 0.3s ease;
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  padding: 1rem;
 }
 
-.project-image-wrapper {
-  height: 180px; /* Fixed height */
-  overflow: hidden; /* Hide overflow of image */
+.project-card {
+  background-color: #ffffffaf;
+  padding: 1.5rem;
+  border-radius: 8px  ;
+  border: 3.2px solid #f05811;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
 }
 
-.project-image {
-  width: 100%; /* Full width of the item */
-  height: 100%; /* Full height */
-  object-fit: cover; /* Maintain aspect ratio */
-  transition: transform 0.3s ease; /* Smooth zoom effect */
+.project-card:hover {
+  transform: scale(1.05);
 }
 
-.project-item:hover {
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+.project-card h3 {
+  font-size: 1.5rem;
+  color: #373534;
+  margin-bottom: 0.5rem;
 }
 
-.project-info {
-  padding: 16px;
+.project-card p {
+  font-size: 1rem;
+  color: #b54613;
 }
-
-.project-name {
-  font-size: 1.25rem;
-  font-weight: bold;
-  color: #333;
-  margin: 0 0 10px; /* Space below the title */
-}
-
-.project-description {
-  font-size: 0.95rem;
-  color: #666;
-  margin: 0 0 15px; /* Space below the description */
-}
-
-.project-button {
-  width: 100%;
-  margin-top: auto; /* Push the button to the bottom */
-  background-color: #f05811; /* Main color */
-  color: #ffffff; /* White text for contrast */
-  transition: background-color 0.2s ease;
-}
-
-.project-button:hover {
-  background-color: #d0450c; /* Darker shade on hover */
-}
-

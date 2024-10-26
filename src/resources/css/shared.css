@@ -1,5 +1,5 @@
 :root{
-    ---pinkColor:#f05811;
+    ---themeColor:#f05811;
 }
 
 .breadCrumbItem{
@@ -15,7 +15,7 @@
 .breadCrumbItem .icon{
     padding: 5%;
     /* color: rgb(77, 77, 77); */
-    color: var(---pinkColor);
+    color: var(---themeColor);
 }
 
 .show{
@@ -30,10 +30,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: var(---pinkColor)
+    color: var(---themeColor);
 }
 
 .firstLetterStyle::first-letter {
-    color:var(---pinkColor);
+    color:var(---themeColor) !important;
     font-size: 1.5rem !important;    
 }

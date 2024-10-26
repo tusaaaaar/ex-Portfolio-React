@@ -108,7 +108,7 @@ const Academics = () => {
           </div>
           <div className="cont">
             <h1>
-              I'm <strong>Tushar Sharma</strong>
+              I'm <strong>Tushar...</strong>
             </h1>
             <Typography variant="body1" gutterBottom>
               As a third-year BSc Computer Science student at Sri Sathya Sai Institute of Higher Learning, I have a strong passion for coding, problem-solving, and web application development. My career goal is to excel as a data scientist, leveraging my expertise in front-end development, data analysis, and machine learning.

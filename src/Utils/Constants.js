@@ -9,10 +9,6 @@ import {
     Mail
 } from '@mui/icons-material'
 import PersonIcon from '@mui/icons-material/Person';
-// import CImage from "../resources/images/C.jpg";
-// import CCImage from "../resources/images/CC.png";
-// import JAVAImage from "../resources/images/java.png";
-// import PYTHONImage from "../resources/images/py.png";
 
 export const userProfileDefaultData={
     "Name"      :"Tushar Sharma",
@@ -114,7 +110,7 @@ export const Primary=[
     {
         title:'Phone',
         icon:<Phone fontSize='inherit' />,
-        link: "https://www.google.com/",
+        link: "/xyz",
     }
 ]
 export const SOCIAL_PROFILES=[
@@ -132,7 +128,7 @@ export const SOCIAL_PROFILES=[
     {
         title: 'GitHub',
         icon: <GitHub fontSize="inherit" />,
-        link: 'https://github.com',
+        link: 'https://www.github.com/tusaaaaar',
     },
     
 ]
@@ -169,12 +165,7 @@ export const PROJECTS_DETAILS = [
       name: "Java",
       description: "Built a terminal stores app using Java.",
       url: "https://www.google.com/"
-    },
-    // {
-    //   name: "Python Stores Application",
-    //   description: "Developed a Python-based terminal stores app.",
-    //   url: "https://www.google.com/"
-    // }
+    }
   ];
   
    

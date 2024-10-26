@@ -46,7 +46,6 @@
 .HomeContainer{
     display: flex;
     height: 100vh;
-    /* background-image: url("../images/wallpaper1.jpg"); */
     background-image: url("../images/back2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -66,7 +65,6 @@
     overflow-x: hidden;
     overflow-y: auto;
     border-radius:  14px 14px 14px 14px;
-    /* background-color: rgba(255, 255, 255, 0.5); */
     padding: 5%;
 }
 .SkeletonComponent .skeleton{
@@ -96,8 +94,4 @@
     font-size: medium;
     color: #f05811;
     /* text-shadow: 2px 2px 5px rgb(92, 86, 86); */
-}
-.firstLetterStyle::first-letter {
-    color:var(---pinkColor);
-    font-size: larger;   
 }
