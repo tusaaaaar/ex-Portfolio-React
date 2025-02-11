@@ -1,7 +1,6 @@
 # Tushar's Portfolio
 
-Welcome to Tushar's Portfolio! This is my personal portfolio website designed to showcase my skills, projects, and background in web development. The site highlights my journey and the technologies I've mastered, offering a glimpse into my work and the projects I've been a part of.
-
+This portfolio website was built as an exercise to explore and learn React. It showcases my skills, projects, and background in web development, highlighting my journey and the technologies I've mastered. Through this site, you can get a glimpse of my work and the projects I've contributed to.
 ## Table of Contents
 
 1. [Project Overview](#project-overview)
